@@ -10,5 +10,5 @@ public unsafe partial struct Continue {
     public static partial Continue* Instance();
 
     [MemberFunction("48 83 EC 28 E8 ?? ?? ?? ?? 84 C0 75 1B")]
-    public partial void Save();
+    public static partial void Save();
 }
